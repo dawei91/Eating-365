@@ -9,7 +9,7 @@
         <title>@yield('title', app_name())</title>
 
         <!-- Meta -->
-        <meta name="description" content="@yield('meta_description', 'Laravel 5 Boilerplate')">
+        <meta name="description" content="@yield('meta_description', 'Eating 365')">
         <meta name="author" content="@yield('meta_author', 'Anthony Rappa')">
         @yield('meta')
 
@@ -28,7 +28,7 @@
 
         <!-- Scripts -->
         <script>
-            window.Laravel = <?php echo json_encode([
+            window.Eating365 = <?php echo json_encode([
                 'csrfToken' => csrf_token(),
             ]); ?>
         </script>
@@ -50,5 +50,10 @@
         @yield('after-scripts')
 
         @include('includes.partials.ga')
+        <!-- This part used to be including the footer, this part need to change to use css to decorate -->
+        <div class="footer" style='position: absolute; right: 0; bottom: 0; left: 0; padding: 1rem;
+        text-align: center;'>
+            @include('frontend.layouts.footer')
+        </div>
     </body>
 </html>
