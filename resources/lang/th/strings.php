@@ -30,7 +30,7 @@ return [
         'general' => [
             'all_rights_reserved' => 'ขอสงวนสิทธิ์',
             'are_you_sure'        => 'คุณแน่ใจหรือ?',
-            'boilerplate_link'    => 'Laravel 5 Boilerplate',
+            'boilerplate_link'    => 'Eating 365',
             'continue'            => 'ทำต่อ',
             'member_since'        => 'เป็นสมาชิกตั้งแต่',
             'minutes'             => ' นาที',

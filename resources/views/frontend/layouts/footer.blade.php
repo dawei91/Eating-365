@@ -1,5 +1,10 @@
-&copy; <?php
-	$copyYear = 2017; // Set your website start date
-	$curYear = date('Y'); // Keeps the second year updated
-	echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '') . ' All Rights Reserved.';
-	?> Copyright.
+<!-- Main Footer -->
+<footer class="main-footer">
+    <!-- To the right -->
+    <div class="pull-right hidden-xs">
+        <a href="http://www.eating365.com" target="_blank">{{ trans('strings.backend.general.boilerplate_link') }}</a>
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; {{ date('Y') }} <a href="#">{{ app_name() }}</a>.</strong> 
+    {{ trans('strings.backend.general.all_rights_reserved') }}
+</footer>

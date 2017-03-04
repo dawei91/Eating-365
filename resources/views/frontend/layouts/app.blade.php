@@ -51,7 +51,7 @@
 
         @include('includes.partials.ga')
         <!-- This part used to be including the footer, this part need to change to use css to decorate -->
-        <div class="footer" style='position: absolute; right: 0; bottom: 0; left: 0; padding: 1rem;
+        <div class="footer" style='position: float; right: 0; bottom: 0; left: 0; padding: 1rem;
         text-align: center;'>
             @include('frontend.layouts.footer')
         </div>

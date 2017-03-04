@@ -30,7 +30,7 @@ return [
         'general' => [
             'all_rights_reserved' => 'Tous droits réservés.',
             'are_you_sure'        => 'Etes-vous sûr?',
-            'boilerplate_link'    => 'Laravel 5 Boilerplate',
+            'boilerplate_link'    => 'Eating 365',
             'continue'            => 'Continuer',
             'member_since'        => 'Membre depuis',
             'minutes'             => ' minutes',
